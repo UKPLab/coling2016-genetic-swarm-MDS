@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from Common.nlp_utils import *
+from nlp_utils import *
 
 import math
 import numpy as np

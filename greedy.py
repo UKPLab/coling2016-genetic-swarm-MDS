@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from Common.nlp_utils import get_len
+from nlp_utils import *
 
+def get_len(element):
+	return len(tokenizer.tokenize(element))
+	
 def greedy_optimizer(sorted_elements, K):
 	available_space = K
 	summary = []
